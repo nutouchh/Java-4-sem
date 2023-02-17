@@ -43,7 +43,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Example (2)">
+  <component name="RunManager" selected="Application.Example">
     <configuration name="Example (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pract4.Example" />
       <module name="Java 4 sem" />
@@ -111,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example (2)" />
         <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Example (2)" />
         <item itemvalue="Application.Example (1)" />
         <item itemvalue="Application.Example (5)" />
         <item itemvalue="Application.Example (4)" />

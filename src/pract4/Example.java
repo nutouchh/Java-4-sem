@@ -67,5 +67,7 @@ public class Example {
             System.out.println("Result: " + future.get());
         }
         service.submit(() -> System.out.println("Finish"));
+
+        service.shutdownNow(); // без это команды потоки продолжают работать
 }}
 
