@@ -1,10 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b45ac238-a33d-4c12-b153-6d6afc0ba053" name="Changes" comment="Added practice #3">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract4/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract4/MyExecutorService.java" afterDir="false" />
+    <list default="true" id="b45ac238-a33d-4c12-b153-6d6afc0ba053" name="Changes" comment="Added practice #4">
+      <change afterPath="$PROJECT_DIR$/src/pract5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract5/SingletonOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract5/SingletonThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract5/SingletonTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/AppAbsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/CarsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/Coupe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/FordCoupe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/FordFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/FordSedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/Sedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/ToyotaCoupe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/ToyotaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/ToyotaSedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Builder/AppBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Builder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Builder/HouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/AppFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/CarProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/FactoryCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/SportCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/SportCarCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/UniversalCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/UniversalCarCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Prototype/AppPrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Prototype/BluePencil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Prototype/Pencil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Prototype/PencilStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Prototype/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract6/Prototype/YellowPencil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract7/Composite/AppComposite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract7/Composite/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract7/Composite/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract7/Composite/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract7/Composite/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract7/Composite/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract7/Proxy/ClientProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract7/Proxy/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract7/Proxy/ProxyFilm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract7/Proxy/RealFilm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/AppBankomat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/NoteModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/NoteModule100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/NoteModule1000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/NoteModule500.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/NoteModule5000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/State/AppStateRadio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/State/ContextRadio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/State/RadioOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/State/RadioThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/State/RadioTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract8/State/Station.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +68,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/pract6/Builder/AppBuilder.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pract6/Builder/HouseBuilder.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pract6/Factory/CarProduct.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pract6/Factory/FactoryCreator.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pract6/Factory/Product.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pract6/Factory/SportCar.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pract6/Factory/SportCarCreator.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pract6/Factory/UniversalCar.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pract6/Factory/UniversalCarCreator.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pract6/Prototype/Prototype.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,13 +110,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Example">
-    <configuration name="Example (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pract4.Example" />
+  <component name="RunManager" selected="Application.AppStateRadio">
+    <configuration name="AppBankomat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pract8.ChainOfResponsibility.AppBankomat" />
       <module name="Java 4 sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pract4.*" />
+          <option name="PATTERN" value="pract8.ChainOfResponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pract4.Example" />
+    <configuration name="AppBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pract6.Builder.AppBuilder" />
       <module name="Java 4 sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pract4.*" />
+          <option name="PATTERN" value="pract6.Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pract4.Example" />
+    <configuration name="AppComposite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pract7.Composite.AppComposite" />
       <module name="Java 4 sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pract4.*" />
+          <option name="PATTERN" value="pract7.Composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pract4.Example" />
+    <configuration name="AppStateRadio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pract8.State.AppStateRadio" />
       <module name="Java 4 sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pract4.*" />
+          <option name="PATTERN" value="pract8.State.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pract4.Example" />
+    <configuration name="ClientProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pract7.Proxy.ClientProxy" />
       <module name="Java 4 sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pract4.*" />
+          <option name="PATTERN" value="pract7.Proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example" />
-        <item itemvalue="Application.Example (2)" />
-        <item itemvalue="Application.Example (1)" />
-        <item itemvalue="Application.Example (5)" />
-        <item itemvalue="Application.Example (4)" />
+        <item itemvalue="Application.AppStateRadio" />
+        <item itemvalue="Application.AppBankomat" />
+        <item itemvalue="Application.AppComposite" />
+        <item itemvalue="Application.ClientProxy" />
+        <item itemvalue="Application.AppBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676359801376</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added practice #4">
+      <created>1676619217320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676619217320</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added practice #4">
+      <created>1676619372852</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676619372852</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +248,8 @@
     <MESSAGE value="Added practice #1" />
     <MESSAGE value="Added practice #2" />
     <MESSAGE value="Added practice #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added practice #3" />
+    <MESSAGE value="Added practice #4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added practice #4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
