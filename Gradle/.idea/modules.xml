@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Gradle.iml" filepath="$PROJECT_DIR$/.idea/Gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pract11.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pract11.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pract13.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pract13.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pract14.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pract14.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pract15.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pract15.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pract16.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pract16.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pract17.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pract17.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pract18.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pract18.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pract19.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pract19.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pract20.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pract20.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pract21.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pract21.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pract22.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pract22.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pract23.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pract23.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pract24.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pract24.main.iml" />
+    </modules>
+  </component>
+</project>

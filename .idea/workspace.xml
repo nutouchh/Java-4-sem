@@ -1,69 +1,423 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b45ac238-a33d-4c12-b153-6d6afc0ba053" name="Changes" comment="Added practice #4">
-      <change afterPath="$PROJECT_DIR$/src/pract5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract5/SingletonOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract5/SingletonThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract5/SingletonTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/AppAbsFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/CarsFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/Coupe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/FordCoupe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/FordFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/FordSedan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/Sedan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/ToyotaCoupe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/ToyotaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/AbstractFactory/ToyotaSedan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Builder/AppBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Builder/HouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/AppFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/CarProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/FactoryCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/SportCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/SportCarCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/UniversalCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Factory/UniversalCarCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Prototype/AppPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Prototype/BluePencil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Prototype/Pencil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Prototype/PencilStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Prototype/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract6/Prototype/YellowPencil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract7/Composite/AppComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract7/Composite/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract7/Composite/Composite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract7/Composite/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract7/Composite/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract7/Composite/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract7/Proxy/ClientProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract7/Proxy/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract7/Proxy/ProxyFilm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract7/Proxy/RealFilm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/AppBankomat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/NoteModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/NoteModule100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/NoteModule1000.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/NoteModule500.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/ChainOfResponsibility/NoteModule5000.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/State/AppStateRadio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/State/ContextRadio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/State/RadioOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/State/RadioThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/State/RadioTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract8/State/Station.java" afterDir="false" />
+    <list default="true" id="b45ac238-a33d-4c12-b153-6d6afc0ba053" name="Changes" comment="Added practices # 5, 6, 7, 8">
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/Gradle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/com.nutouchh.pract23.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/pract11.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/pract13.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/pract14.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/pract15.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/pract16.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/pract17.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/pract18.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/pract19.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/pract20.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/pract21.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/pract22.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/pract23.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/modules/pract24.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/application.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/src/main/java/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/src/main/java/components/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/src/main/java/components/Junior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/src/main/java/components/Middle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/src/main/java/components/Senior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/src/main/java/interfaces/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract10/src/test/java/pract10/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract11/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract11/app/src/main/resources/pract11-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract11/src/main/java/com/example/pract11/Pract11Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract11/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/7.5.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/7.5.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/7.5.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/src/main/java/com/nutouchh/pract12/Pract12Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/src/main/java/com/nutouchh/pract12/components/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/src/main/java/com/nutouchh/pract12/components/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/src/main/resources/files/out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract12/src/test/java/com/nutouchh/pract12/Pract12ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract13/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract13/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract13/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract13/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract13/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract13/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract13/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract13/src/main/java/com/nutouchh/pract13/Pract13Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract13/src/main/java/com/nutouchh/pract13/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract13/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract13/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract13/src/test/java/com/nutouchh/pract13/Pract13ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/src/main/java/com/nutouchh/pract14/Pract14Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/src/main/java/com/nutouchh/pract14/classes/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/src/main/java/com/nutouchh/pract14/classes/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/src/main/java/com/nutouchh/pract14/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/src/main/java/com/nutouchh/pract14/controllers/MarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/src/main/java/com/nutouchh/pract14/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/src/main/resources/static/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract14/src/test/java/com/nutouchh/pract14/Pract14ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/src/main/java/com/nurouchh/pract15/Pract15Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/src/main/java/com/nurouchh/pract15/classes/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/src/main/java/com/nurouchh/pract15/classes/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/src/main/java/com/nurouchh/pract15/configuration/SQLConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/src/main/java/com/nurouchh/pract15/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/src/main/java/com/nurouchh/pract15/controllers/MarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/src/main/java/com/nurouchh/pract15/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/src/main/java/com/nurouchh/pract15/service/MarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/src/main/java/com/nurouchh/pract15/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/src/main/resources/static/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract15/src/test/java/com/nurouchh/pract15/Pract15ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract16/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract16/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract16/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract16/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract16/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract16/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract16/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract16/src/main/java/com/nutouchh/pract16/Pract16Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract16/src/main/java/com/nutouchh/pract16/configuration/SQLConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract16/src/main/java/com/nutouchh/pract16/model/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract16/src/main/java/com/nutouchh/pract16/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract16/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract16/src/test/java/com/nutouchh/pract16/Pract16ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/src/main/java/com/nutouchh/pract24/Pract17Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/src/main/java/com/nutouchh/pract24/configuration/SQLConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/src/main/java/com/nutouchh/pract24/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/src/main/java/com/nutouchh/pract24/controllers/MarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/src/main/java/com/nutouchh/pract24/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/src/main/java/com/nutouchh/pract24/model/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/src/main/java/com/nutouchh/pract24/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/src/main/java/com/nutouchh/pract24/service/MarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/src/main/java/com/nutouchh/pract24/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract17/src/test/java/com/nutouchh/pract24/Pract17ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/main/java/com/nutouchh/pract24/Pract18Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/main/java/com/nutouchh/pract24/configuration/SQLConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/main/java/com/nutouchh/pract24/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/main/java/com/nutouchh/pract24/controllers/MarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/main/java/com/nutouchh/pract24/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/main/java/com/nutouchh/pract24/model/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/main/java/com/nutouchh/pract24/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/main/java/com/nutouchh/pract24/repository/MarketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/main/java/com/nutouchh/pract24/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/main/java/com/nutouchh/pract24/service/MarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/main/java/com/nutouchh/pract24/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract18/src/test/java/com/nutouchh/pract24/Pract18ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/application.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/java/com/nutouchh/pract24/Pract19Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/java/com/nutouchh/pract24/configuration/SQLConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/java/com/nutouchh/pract24/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/java/com/nutouchh/pract24/controllers/MarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/java/com/nutouchh/pract24/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/java/com/nutouchh/pract24/model/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/java/com/nutouchh/pract24/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/java/com/nutouchh/pract24/repository/MarketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/java/com/nutouchh/pract24/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/java/com/nutouchh/pract24/service/MarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/java/com/nutouchh/pract24/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract19/src/test/java/com/nutouchh/pract24/Pract18ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/application.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/java/com/nutouchh/pract24/Pract20Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/java/com/nutouchh/pract24/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/java/com/nutouchh/pract24/configuration/SQLConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/java/com/nutouchh/pract24/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/java/com/nutouchh/pract24/controllers/MarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/java/com/nutouchh/pract24/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/java/com/nutouchh/pract24/model/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/java/com/nutouchh/pract24/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/java/com/nutouchh/pract24/repository/MarketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/java/com/nutouchh/pract24/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/java/com/nutouchh/pract24/service/MarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/java/com/nutouchh/pract24/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract20/src/test/java/com/nutouchh/pract24/Pract18ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/application.2023-04-17.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/application.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/Pract21Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/aspect/EmailAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/configuration/SQLConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/controllers/MarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/model/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/repository/MarketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/service/MarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/java/com/nutouchh/pract24/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract21/src/test/java/com/nutouchh/pract24/Pract18ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/application.2023-04-18.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/application.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/backups/markets.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/backups/products.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/Pract22Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/aspect/EmailAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/configuration/SQLConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/controllers/MarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/model/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/repository/MarketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/service/MarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/java/com/nutouchh/pract24/service/SchedulerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract22/src/test/java/com/nutouchh/pract24/Pract18ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/application.2023-04-18.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/application.2023-04-23.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/application.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/backups/markets.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/backups/products.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/Pract23Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/aspect/EmailAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/configuration/SQLConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/controllers/MarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/model/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/repository/MarketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/security/UsersDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/service/MarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/service/RegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/service/SchedulerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/java/com/nutouchh/pract24/service/UsersDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/resources/static/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/resources/templates/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/main/resources/templates/auth/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract23/src/test/java/com/nutouchh/pract24/Pract18ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/application.2023-04-18.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/application.2023-04-23.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/application.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/backups/markets.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/backups/products.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/Pract24Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/aspect/EmailAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/configuration/SQLConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/controllers/MarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/model/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/repository/MarketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/security/UsersDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/service/MarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/service/RegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/service/SchedulerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/java/com/nutouchh/pract24/service/UsersDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/resources/static/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/resources/templates/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/main/resources/templates/auth/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/test/java/com/nutouchh/pract24/Pract24ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/test/java/com/nutouchh/pract24/service/EmailServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/test/java/com/nutouchh/pract24/service/MarketServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/test/java/com/nutouchh/pract24/service/ProductServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/test/java/com/nutouchh/pract24/service/RegistrationServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/test/java/com/nutouchh/pract24/service/SchedulerServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract24/src/test/java/com/nutouchh/pract24/service/UsersDetailsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/app/src/main/java/pract9/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/app/src/main/resources/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/app/src/test/java/pract9/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/pract9/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java 4 sem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java 4 sem.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/src/pract9/app/build.gradle">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,6 +425,7 @@
         <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -92,6 +447,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2LVU9qyZupzml7xc97B8zmGugCX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -100,17 +458,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Anna/IdeaProjects/Java 4 sem",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.AppStateRadio">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pract10.src.test.java.pract10" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AppBankomat">
     <configuration name="AppBankomat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pract8.ChainOfResponsibility.AppBankomat" />
       <module name="Java 4 sem" />
@@ -124,12 +501,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pract6.Builder.AppBuilder" />
+    <configuration name="AppComposite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pract7.Composite.AppComposite" />
       <module name="Java 4 sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pract6.Builder.*" />
+          <option name="PATTERN" value="pract7.Composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +514,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppComposite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pract7.Composite.AppComposite" />
+    <configuration name="AppPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pract6.Prototype.AppPrototype" />
       <module name="Java 4 sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pract7.Composite.*" />
+          <option name="PATTERN" value="pract6.Prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,13 +553,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.AppBankomat" />
+      <item itemvalue="Application.AppComposite" />
+      <item itemvalue="Application.AppPrototype" />
+      <item itemvalue="Application.AppStateRadio" />
+      <item itemvalue="Application.ClientProxy" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppStateRadio" />
         <item itemvalue="Application.AppBankomat" />
-        <item itemvalue="Application.AppComposite" />
+        <item itemvalue="Application.AppStateRadio" />
         <item itemvalue="Application.ClientProxy" />
-        <item itemvalue="Application.AppBuilder" />
+        <item itemvalue="Application.AppComposite" />
+        <item itemvalue="Application.AppPrototype" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +584,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675955596960</updated>
+      <workItem from="1679429959051" duration="1065000" />
+      <workItem from="1679433688850" duration="226000" />
+      <workItem from="1679464719284" duration="979000" />
+      <workItem from="1679465743071" duration="1860000" />
+      <workItem from="1679467689432" duration="338000" />
+      <workItem from="1679479690418" duration="677000" />
+      <workItem from="1679491850301" duration="2510000" />
+      <workItem from="1679494473091" duration="227000" />
+      <workItem from="1679495213948" duration="42000" />
+      <workItem from="1679509802200" duration="955000" />
+      <workItem from="1679584828793" duration="715000" />
+      <workItem from="1679915242885" duration="1117000" />
+      <workItem from="1682707846299" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="Added practice #1">
       <created>1675959347235</created>
@@ -230,8 +633,18 @@
       <option name="project" value="LOCAL" />
       <updated>1676619372852</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added practices # 5, 6, 7, 8">
+      <created>1678033419469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678033419469</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -245,11 +658,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added practice #1" />
     <MESSAGE value="Added practice #2" />
     <MESSAGE value="Added practice #3" />
     <MESSAGE value="Added practice #4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added practice #4" />
+    <MESSAGE value="Added practices # 5, 6, 7, 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added practices # 5, 6, 7, 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

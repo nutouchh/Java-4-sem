@@ -1,0 +1,52 @@
+1922 [main] INFO  c.n.pract22.Pract22Application – Starting Pract22Application using Java 18.0.2 on DESKTOP-IF5O8H6 with PID 16004 (C:\Users\Anna\IdeaProjects\Java 4 sem\Gradle\pract22\build\classes\java\main started by Anna in C:\Users\Anna\IdeaProjects\Java 4 sem\Gradle\pract22)
+1937 [main] INFO  c.n.pract22.Pract22Application – No active profile set, falling back to default profiles: default
+2703 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2813 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 89 ms. Found 2 JPA repository interfaces.
+4597 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+4613 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+4614 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+4615 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.56]
+4736 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+4738 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2716 ms
+5003 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+5353 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5232e3f1
+5356 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+5445 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+5563 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.3.Final
+5862 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+6046 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+6767 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+6783 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+7442 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+8009 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+8078 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+8119 [main] INFO  c.n.pract22.Pract22Application – Started Pract22Application in 7.617 seconds (JVM running for 8.347)
+44413 [scheduling-1] INFO  c.n.p.service.SchedulerService – Scheduled task started: deleting files
+44414 [scheduling-1] INFO  c.n.p.service.SchedulerService – File markets.txt deleted
+44414 [scheduling-1] INFO  c.n.p.service.SchedulerService – File products.txt deleted
+44414 [scheduling-1] INFO  c.n.p.service.SchedulerService – All files deleted
+Writing updated data from products and markets tables
+44425 [scheduling-1] INFO  c.n.pract22.service.ProductService – Find all products
+44508 [scheduling-1] INFO  c.n.pract22.aspect.LoggingAspect – List com.nutouchh.pract24.service.ProductService.getAllProducts() executed in 84 ms
+44540 [scheduling-1] INFO  c.n.pract22.service.MarketService – Find all markets
+44566 [scheduling-1] INFO  c.n.pract22.aspect.LoggingAspect – List com.nutouchh.pract24.service.MarketService.getAllMarkets() executed in 30 ms
+44572 [scheduling-1] INFO  c.n.p.service.SchedulerService – Finished writing
+Scheduled task ended
+44573 [scheduling-1] INFO  c.n.pract22.aspect.LoggingAspect – void com.nutouchh.pract24.service.SchedulerService.makeBackup() executed in 173 ms
+102140 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+102140 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+102142 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+102167 [http-nio-8080-exec-1] INFO  c.n.pract22.service.MarketService – Find all markets
+102171 [http-nio-8080-exec-1] INFO  c.n.pract22.aspect.LoggingAspect – List com.nutouchh.pract24.service.MarketService.getAllMarkets() executed in 4 ms
+104384 [scheduling-1] INFO  c.n.p.service.SchedulerService – Scheduled task started: deleting files
+104388 [scheduling-1] INFO  c.n.p.service.SchedulerService – File markets.txt deleted
+104390 [scheduling-1] INFO  c.n.p.service.SchedulerService – File products.txt deleted
+104390 [scheduling-1] INFO  c.n.p.service.SchedulerService – All files deleted
+Writing updated data from products and markets tables
+104394 [scheduling-1] INFO  c.n.pract22.service.ProductService – Find all products
+104399 [scheduling-1] INFO  c.n.pract22.aspect.LoggingAspect – List com.nutouchh.pract24.service.ProductService.getAllProducts() executed in 5 ms
+104405 [scheduling-1] INFO  c.n.pract22.service.MarketService – Find all markets
+104414 [scheduling-1] INFO  c.n.pract22.aspect.LoggingAspect – List com.nutouchh.pract24.service.MarketService.getAllMarkets() executed in 9 ms
+104419 [scheduling-1] INFO  c.n.p.service.SchedulerService – Finished writing
+Scheduled task ended
+104419 [scheduling-1] INFO  c.n.pract22.aspect.LoggingAspect – void com.nutouchh.pract24.service.SchedulerService.makeBackup() executed in 35 ms

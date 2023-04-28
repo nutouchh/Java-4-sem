@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.22/9c08ea24c6eb714e2d6170e8122c069a0ba9aacf/lombok-1.18.22.jar" />
+        </processorPath>
+        <module name="pract24.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.nutouchh.pract17" target="17" />
+      <module name="com.nutouchh.pract17.main" target="17" />
+      <module name="com.nutouchh.pract17.test" target="17" />
+      <module name="com.nutouchh.pract18" target="17" />
+      <module name="com.nutouchh.pract18.main" target="17" />
+      <module name="com.nutouchh.pract18.test" target="17" />
+      <module name="com.nutouchh.pract19" target="17" />
+      <module name="com.nutouchh.pract19.main" target="17" />
+      <module name="com.nutouchh.pract19.test" target="17" />
+      <module name="com.nutouchh.pract20" target="17" />
+      <module name="com.nutouchh.pract20.main" target="17" />
+      <module name="com.nutouchh.pract20.test" target="17" />
+      <module name="com.nutouchh.pract21" target="17" />
+      <module name="com.nutouchh.pract21.main" target="17" />
+      <module name="com.nutouchh.pract21.test" target="17" />
+      <module name="com.nutouchh.pract22" target="17" />
+      <module name="com.nutouchh.pract22.main" target="17" />
+      <module name="com.nutouchh.pract22.test" target="17" />
+      <module name="com.nutouchh.pract23" target="17" />
+      <module name="com.nutouchh.pract23.main" target="17" />
+      <module name="com.nutouchh.pract23.test" target="17" />
+      <module name="demo" target="17" />
+      <module name="demo.main" target="17" />
+      <module name="demo.test" target="17" />
+      <module name="untitled" target="18" />
+      <module name="untitled.main" target="18" />
+      <module name="untitled.test" target="18" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

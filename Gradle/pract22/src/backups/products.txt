@@ -1,0 +1,5 @@
+Product{id=1, name='Колбаса', price='1234'}
+Product{id=2, name='Молоко', price='60'}
+Product{id=3, name='Джава', price='Бесценно'}
+Product{id=4, name='Продукт моей деятельности', price='Обесценено аххаах'}
+Product{id=5, name='Конфеты', price='100'}

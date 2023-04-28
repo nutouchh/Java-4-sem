@@ -1,0 +1,33 @@
+1077 [main] INFO  c.n.pract22.Pract21Application Ц Starting Pract21Application using Java 18.0.2 on DESKTOP-IF5O8H6 with PID 17220 (C:\Users\Anna\IdeaProjects\Java 4 sem\Gradle\pract21\build\classes\java\main started by Anna in C:\Users\Anna\IdeaProjects\Java 4 sem\Gradle\pract21)
+1088 [main] INFO  c.n.pract22.Pract21Application Ц No active profile set, falling back to default profiles: default
+1677 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1739 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2842 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port(s): 8080 (http)
+2854 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+2855 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+2855 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/9.0.56]
+2944 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+2944 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 1788 ms
+3122 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+3461 [main] INFO  com.zaxxer.hikari.pool.HikariPool Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6be6931f
+3464 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+3532 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+3602 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 5.6.3.Final
+3875 [main] INFO  o.h.annotations.common.Version Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4048 [main] INFO  org.hibernate.dialect.Dialect Ц HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4859 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4868 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+5556 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5970 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+5997 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port(s): 8080 (http) with context path ''
+6007 [main] INFO  c.n.pract22.Pract21Application Ц Started Pract21Application in 5.439 seconds (JVM running for 6.192)
+12965 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+12965 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+12966 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 1 ms
+13017 [http-nio-8080-exec-1] INFO  c.n.pract22.service.MarketService Ц Find all markets
+13141 [http-nio-8080-exec-1] INFO  c.n.pract22.aspect.LoggingAspect Ц List com.nutouchh.pract24.service.MarketService.getAllMarkets() executed in 133 ms
+74904 [http-nio-8080-exec-3] INFO  c.n.pract22.service.MarketService Ц Saving market: Market{id=null, name=' ондитерска€', address='ѕроспект вернадского 55}
+75005 [http-nio-8080-exec-3] INFO  c.n.pract22.aspect.LoggingAspect Ц void com.nutouchh.pract24.service.MarketService.addEntity(Market,long) executed in 101 ms
+75058 [http-nio-8080-exec-4] INFO  c.n.pract22.service.MarketService Ц Find all markets
+75071 [http-nio-8080-exec-4] INFO  c.n.pract22.aspect.LoggingAspect Ц List com.nutouchh.pract24.service.MarketService.getAllMarkets() executed in 13 ms
+76919 [task-2] INFO  c.n.pract22.aspect.LoggingAspect Ц void com.nutouchh.pract24.service.EmailService.sendEmail(String,String) executed in 1891 ms

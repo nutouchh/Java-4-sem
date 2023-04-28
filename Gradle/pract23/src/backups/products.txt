@@ -1,0 +1,2 @@
+Product{id=1, name='Конфеты', price='100'}
+Product{id=2, name='Мюсли', price='170'}

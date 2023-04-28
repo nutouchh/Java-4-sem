@@ -1,0 +1,9 @@
+238  [Test worker] INFO  c.n.pract24.service.ProductService – Removing all products with name = my product and price = 12345
+287  [Test worker] INFO  c.n.pract24.service.ProductService – Saving product: Product{id=0, name='null', price='null'}
+298  [Test worker] INFO  c.n.pract24.service.ProductService – Find all products
+387  [Test worker] INFO  c.n.pract24.service.ProductService – Getting all products sorted by name
+622  [Test worker] INFO  c.n.p.service.SchedulerService – Scheduled task started: deleting files
+625  [Test worker] INFO  c.n.p.service.SchedulerService – All files deleted
+Writing updated data from products and markets tables
+630  [Test worker] INFO  c.n.p.service.SchedulerService – Finished writing
+Scheduled task ended

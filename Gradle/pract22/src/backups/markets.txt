@@ -1,0 +1,3 @@
+Market{id=16, name='qwert', address='trewq}
+Market{id=17, name='МИРЭА', address='Проспект вернадского 78}
+Market{id=18, name='Кондитерская', address='Проспект вернадского 55}
